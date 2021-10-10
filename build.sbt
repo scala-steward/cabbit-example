@@ -1,7 +1,7 @@
 ThisBuild / scalaVersion := "2.13.6"
 ThisBuild / organization := "ru.delimobil"
 
-val cabbitVersion = "0.0.17"
+val cabbitVersion = "0.1.0"
 
 name := "cabbit-example"
 
