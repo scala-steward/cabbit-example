@@ -6,7 +6,7 @@ A simple example to demonstrate how to use cabbit.
 ### Instructions
 0. Get an instance of RabbitMQ
 
-If you don't have one, you can use docker: `docker run -d --hostname my-rabbit --name some-rabbit rabbitmq:3`
+If you don't have one, you can use docker: `docker run --hostname my-rabbit --name some-rabbit -p 5672:5672 rabbitmq:3`
 Use your RabbitMQ host and port in the following examples, I use 'localhost' and '5672'
 
 1. Start `ConsumeApp`, observe output
